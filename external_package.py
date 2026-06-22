@@ -1,3 +1,10 @@
+# Note: Need to type in: python -m pip install colorama or 
+# python -m pip install requests into terminal
+# Need to prefix with: python -m pip. Follow it with associated commands
+from colorama import Fore, Back, Style
+import datetime
+import requests
+
 # Checking commands, etc.
 #print(dir(colorama))
 print(Fore.RED + "Let's put this to the test!")    # Gives text a red color
